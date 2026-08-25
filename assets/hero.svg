@@ -1,51 +1,22 @@
 <svg width="1200" height="430" viewBox="0 0 1200 430" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="70" y1="20" x2="1120" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#050817"/><stop offset=".48" stop-color="#0A1230"/><stop offset="1" stop-color="#12072A"/>
-    </linearGradient>
-    <linearGradient id="accent" x1="265" y1="0" x2="900" y2="0" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#36C5FF"><animate attributeName="stop-color" values="#36C5FF;#8B5CF6;#36C5FF" dur="7s" repeatCount="indefinite"/></stop>
-      <stop offset=".52" stop-color="#7C5CFF"><animate attributeName="stop-color" values="#7C5CFF;#22D3EE;#7C5CFF" dur="7s" repeatCount="indefinite"/></stop>
-      <stop offset="1" stop-color="#D946EF"><animate attributeName="stop-color" values="#D946EF;#5B8CFF;#D946EF" dur="7s" repeatCount="indefinite"/></stop>
-    </linearGradient>
-    <radialGradient id="glow"><stop stop-color="#5B8CFF" stop-opacity=".42"/><stop offset="1" stop-color="#5B8CFF" stop-opacity="0"/></radialGradient>
-    <filter id="blur"><feGaussianBlur stdDeviation="28"/></filter>
-    <filter id="soft"><feGaussianBlur stdDeviation="6"/></filter>
-    <filter id="textGlow"><feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#5B8CFF" flood-opacity=".35"/></filter>
-    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse"><path d="M44 0H0V44" stroke="#7996FF" stroke-opacity=".075"/></pattern>
-    <clipPath id="clip"><rect width="1200" height="430" rx="32"/></clipPath>
+    <linearGradient id="bg" x1="30" y1="10" x2="1170" y2="420" gradientUnits="userSpaceOnUse"><stop stop-color="#020817"/><stop offset=".52" stop-color="#07172D"/><stop offset="1" stop-color="#052520"/></linearGradient>
+    <linearGradient id="accent" x1="100" y1="0" x2="1000" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#38BDF8"><animate attributeName="stop-color" values="#38BDF8;#2563EB;#38BDF8" dur="8s" repeatCount="indefinite"/></stop><stop offset=".55" stop-color="#3B82F6"><animate attributeName="stop-color" values="#3B82F6;#22D3EE;#3B82F6" dur="8s" repeatCount="indefinite"/></stop><stop offset="1" stop-color="#34D399"><animate attributeName="stop-color" values="#34D399;#14B8A6;#34D399" dur="8s" repeatCount="indefinite"/></stop></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#0EA5E9" stop-opacity=".38"/><stop offset="1" stop-color="#0EA5E9" stop-opacity="0"/></radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="30"/></filter><filter id="soft"><feGaussianBlur stdDeviation="7"/></filter><filter id="textGlow"><feDropShadow dx="0" dy="0" stdDeviation="8" flood-color="#0EA5E9" flood-opacity=".34"/></filter>
+    <pattern id="grid" width="42" height="42" patternUnits="userSpaceOnUse"><path d="M42 0H0V42" stroke="#67E8F9" stroke-opacity=".055"/></pattern><clipPath id="clip"><rect width="1200" height="430" rx="32"/></clipPath>
   </defs>
   <g clip-path="url(#clip)">
-    <rect width="1200" height="430" rx="32" fill="url(#bg)"/>
-    <rect width="1200" height="430" fill="url(#grid)"/>
-    <circle cx="170" cy="110" r="220" fill="url(#glow)" filter="url(#blur)"><animate attributeName="cx" values="170;330;170" dur="12s" repeatCount="indefinite"/></circle>
-    <circle cx="1030" cy="340" r="250" fill="#8B5CF6" fill-opacity=".16" filter="url(#blur)"><animate attributeName="cy" values="340;230;340" dur="14s" repeatCount="indefinite"/></circle>
-    <path d="M0 343C187 293 282 403 466 343C669 278 730 373 920 315C1038 278 1113 286 1200 252" stroke="url(#accent)" stroke-opacity=".35" stroke-width="2" stroke-dasharray="10 14">
-      <animate attributeName="stroke-dashoffset" values="0;-192" dur="8s" repeatCount="indefinite"/>
-    </path>
-    <g opacity=".9">
-      <circle cx="940" cy="105" r="86" stroke="#5B8CFF" stroke-opacity=".25"/><circle cx="940" cy="105" r="55" stroke="#8B5CF6" stroke-opacity=".3" stroke-dasharray="7 10"><animateTransform attributeName="transform" type="rotate" from="0 940 105" to="360 940 105" dur="12s" repeatCount="indefinite"/></circle>
-      <circle cx="940" cy="19" r="6" fill="#38BDF8" filter="url(#soft)"><animateTransform attributeName="transform" type="rotate" from="0 940 105" to="360 940 105" dur="8s" repeatCount="indefinite"/></circle>
-      <circle cx="940" cy="105" r="18" fill="#10183B" stroke="#A78BFA"/><path d="M932 105l6 6 12-14" stroke="#69E6FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect width="1200" height="430" rx="32" fill="url(#bg)"/><rect width="1200" height="430" fill="url(#grid)"/>
+    <circle cx="190" cy="95" r="230" fill="url(#glow)" filter="url(#blur)"><animate attributeName="cx" values="190;370;190" dur="13s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="340" r="245" fill="#10B981" fill-opacity=".12" filter="url(#blur)"><animate attributeName="cy" values="340;235;340" dur="15s" repeatCount="indefinite"/></circle>
+    <path d="M0 352C180 299 286 399 464 346C661 287 750 371 922 316C1043 278 1116 286 1200 253" stroke="url(#accent)" stroke-opacity=".38" stroke-width="2" stroke-dasharray="11 14"><animate attributeName="stroke-dashoffset" values="0;-200" dur="7s" repeatCount="indefinite"/></path>
+    <g opacity=".94"><circle cx="972" cy="130" r="92" stroke="#38BDF8" stroke-opacity=".22"/><circle cx="972" cy="130" r="64" stroke="#34D399" stroke-opacity=".34" stroke-dasharray="8 11"><animateTransform attributeName="transform" type="rotate" from="0 972 130" to="360 972 130" dur="11s" repeatCount="indefinite"/></circle><circle cx="972" cy="38" r="7" fill="#38BDF8" filter="url(#soft)"><animateTransform attributeName="transform" type="rotate" from="0 972 130" to="360 972 130" dur="8s" repeatCount="indefinite"/></circle><circle cx="972" cy="130" r="30" fill="#07172D" stroke="#34D399"/><path d="M958 130l9 9 20-24" stroke="#6EE7B7" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+      <g fill="#071426" stroke="#38BDF8" stroke-opacity=".65"><circle cx="830" cy="95" r="18"/><circle cx="1110" cy="84" r="18"/><circle cx="1086" cy="251" r="18"/><circle cx="842" cy="248" r="18"/></g><g stroke="#38BDF8" stroke-opacity=".32" stroke-dasharray="5 7"><path d="M848 96L942 121"/><path d="M1092 87L1003 119"/><path d="M1070 244L996 153"/><path d="M858 239L949 151"/></g>
     </g>
-    <g font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="14" fill="#7DD3FC" opacity=".8">
-      <text x="930" y="228">while (learning) {</text><text x="958" y="254">build();</text><text x="958" y="280">solve();</text><text x="930" y="306">}</text>
-      <rect x="923" y="210" width="188" height="118" rx="14" stroke="#5B8CFF" stroke-opacity=".16"/>
-    </g>
-    <g>
-      <rect x="74" y="58" width="238" height="34" rx="17" fill="#101A3B" stroke="#3EA6FF" stroke-opacity=".42"/>
-      <circle cx="94" cy="75" r="5" fill="#34D399"><animate attributeName="opacity" values=".35;1;.35" dur="1.8s" repeatCount="indefinite"/></circle>
-      <text x="109" y="80" fill="#91D9FF" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">BUILDING WITH INTENT</text>
-      <text x="72" y="168" fill="#F8FAFF" font-family="Inter,Arial,sans-serif" font-size="58" font-weight="800">ABHINAV SHARMA</text>
-      <text x="73" y="225" fill="url(#accent)" filter="url(#textGlow)" font-family="Inter,Arial,sans-serif" font-size="35" font-weight="750">Software Engineer · DSA Builder</text>
-      <text x="74" y="274" fill="#AAB8D6" font-family="Inter,Arial,sans-serif" font-size="20">Turning interview preparation into systems that learn, recall and improve.</text>
-      <g font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700">
-        <rect x="74" y="318" width="117" height="38" rx="19" fill="#0F2449" stroke="#38BDF8" stroke-opacity=".5"/><text x="104" y="342" fill="#78D6FF">REACT</text>
-        <rect x="204" y="318" width="111" height="38" rx="19" fill="#171A46" stroke="#8B5CF6" stroke-opacity=".55"/><text x="232" y="342" fill="#C4B5FD">C++20</text>
-        <rect x="328" y="318" width="137" height="38" rx="19" fill="#161638" stroke="#A855F7" stroke-opacity=".5"/><text x="354" y="342" fill="#D8B4FE">ELECTRON</text>
-        <rect x="478" y="318" width="141" height="38" rx="19" fill="#10283A" stroke="#22D3EE" stroke-opacity=".45"/><text x="504" y="342" fill="#67E8F9">FIREBASE</text>
-      </g>
-    </g>
-    <rect x="1" y="1" width="1198" height="428" rx="31" stroke="url(#accent)" stroke-opacity=".36" stroke-width="2"/>
+    <g><rect x="74" y="54" width="268" height="36" rx="18" fill="#071E35" stroke="#38BDF8" stroke-opacity=".45"/><circle cx="95" cy="72" r="5" fill="#34D399"><animate attributeName="opacity" values=".3;1;.3" dur="1.8s" repeatCount="indefinite"/></circle><text x="111" y="77" fill="#91D9FF" font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="2">BUILDING TRUSTED SYSTEMS</text>
+      <text x="72" y="166" fill="#F8FAFC" font-family="Inter,Arial,sans-serif" font-size="59" font-weight="800">ABHINAV SHARMA</text><text x="73" y="220" fill="url(#accent)" filter="url(#textGlow)" font-family="Inter,Arial,sans-serif" font-size="35" font-weight="750">Full-stack engineer · Product builder</text><text x="74" y="269" fill="#AFC2D7" font-family="Inter,Arial,sans-serif" font-size="20">Designing secure, human-centred software from interface to database.</text>
+      <g font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700"><rect x="74" y="316" width="118" height="39" rx="19.5" fill="#08243B" stroke="#38BDF8" stroke-opacity=".5"/><text x="101" y="341" fill="#7DD3FC">REACT</text><rect x="205" y="316" width="118" height="39" rx="19.5" fill="#0B2342" stroke="#60A5FA" stroke-opacity=".52"/><text x="231" y="341" fill="#93C5FD">NODE.JS</text><rect x="336" y="316" width="116" height="39" rx="19.5" fill="#082A31" stroke="#2DD4BF" stroke-opacity=".48"/><text x="365" y="341" fill="#5EEAD4">MYSQL</text><rect x="465" y="316" width="145" height="39" rx="19.5" fill="#09271F" stroke="#34D399" stroke-opacity=".5"/><text x="491" y="341" fill="#6EE7B7">SECURITY</text></g>
+    </g><rect x="1" y="1" width="1198" height="428" rx="31" stroke="url(#accent)" stroke-opacity=".4" stroke-width="2"/>
   </g>
 </svg>
