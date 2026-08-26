@@ -15,6 +15,12 @@
   <sub>Full-stack engineering · secure workflows · relational data · human-centred product design</sub>
 </div>
 
+<br />
+
+<div align="center">
+  <img src="./assets/signal.svg" width="100%" alt="Animated engineering process signal" />
+</div>
+
 ---
 
 ## `01` Flagship project — AttendGuard
@@ -26,7 +32,9 @@ AttendGuard is a responsive full-stack attendance prototype built during my inte
 Instead of trusting every scan, AttendGuard evaluates a chain of signals before creating an attendance record.
 
 <div align="center">
-  <img src="./assets/attendguard-hero-v1.png" width="100%" alt="AttendGuard secure attendance network concept" />
+  <img src="./assets/attendguard-tile-reveal.gif" width="100%" alt="AttendGuard screens assembling through an animated tile reveal" />
+  <br/>
+  <sub><b>Live product reveal:</b> landing experience → controlled QR session → attendance reporting → suspicious-attempt monitoring.</sub>
 </div>
 
 <br />
@@ -94,6 +102,12 @@ MySQL relational model + reports + audit history
 - **Risk engine:** QR age/signature, location, device, and suspicious-attempt logging.
 - **Reporting service:** matrices, percentages, absence lists, and dashboard aggregates.
 - **Profile and notification foundations:** Multer uploads plus Nodemailer/Ethereal email-preview testing.
+
+<br/>
+
+<div align="center">
+  <img src="./assets/attendguard-hero-v1.png" width="100%" alt="AttendGuard secure attendance network concept" />
+</div>
 
 </details>
 

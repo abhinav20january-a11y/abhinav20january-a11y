@@ -1,0 +1,10 @@
+<svg width="1200" height="94" viewBox="0 0 1200 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1200" y2="0"><stop stop-color="#38BDF8"/><stop offset=".52" stop-color="#2563EB"/><stop offset="1" stop-color="#34D399"/></linearGradient><filter id="b"><feGaussianBlur stdDeviation="7"/></filter></defs>
+  <rect x="1" y="1" width="1198" height="92" rx="23" fill="#030B17" stroke="#173A59"/>
+  <path d="M42 48H1158" stroke="#12304A" stroke-width="2"/>
+  <path d="M42 48H1158" stroke="url(#g)" stroke-width="3" stroke-dasharray="10 17"><animate attributeName="stroke-dashoffset" values="0;-108" dur="3s" repeatCount="indefinite"/></path>
+  <g font-family="Inter,Arial,sans-serif" font-size="13" font-weight="700" letter-spacing="1.7" text-anchor="middle">
+    <text x="150" y="32" fill="#7DD3FC">UNDERSTAND</text><text x="375" y="72" fill="#93C5FD">ARCHITECT</text><text x="600" y="32" fill="#67E8F9">BUILD</text><text x="825" y="72" fill="#5EEAD4">VERIFY</text><text x="1050" y="32" fill="#6EE7B7">IMPROVE</text>
+  </g>
+  <circle cx="42" cy="48" r="7" fill="#38BDF8" filter="url(#b)"><animate attributeName="cx" values="42;1158;42" dur="8s" repeatCount="indefinite"/></circle>
+</svg>
